@@ -1,4 +1,3 @@
-/* Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +23,6 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   width: 90%;
   max-width: 380px;
-  animation: fadeIn 1s ease-in-out;
 }
 
 @keyframes fadeIn {
@@ -106,7 +104,6 @@ button {
 
 button:hover {
   background-color: #0056b3;
-  transform: scale(1.05);
 }
 
 button:active {
@@ -136,7 +133,6 @@ p a:hover {
   text-decoration: underline;
 }
 
-/* Larger screens (Tablets and Desktops) */
 @media (min-width: 768px) {
   .auth-container {
     max-width: 450px;
