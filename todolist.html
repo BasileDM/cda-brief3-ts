@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type="module" src="./src/ts/index.ts" defer></script>
-  <title>Todolist</title>
-</head>
-<body>
-  <div id="tasklist"></div>
-  <template id="task-template">
-    <div class="task">
-      <p class="title"></p>
-      <p class="text"></p>
-      <input type="checkbox" class="done">
-      <button class="delete">Delete</button>
-    </div>
-  </template>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="./src/ts/index.ts" defer></script>
+    <title>Todolist</title>
+  </head>
+  <body>
+    <h1>Todolist</h1>
+    <div id="tasklist"></div>
+    <button id="add-task">Add Task</button>
+    <template id="task-template">
+      <div class="task">
+        <p class="title"></p>
+        <input type="checkbox" class="done" />
+        <button class="delete">Delete</button>
+      </div>
+    </template>
+  </body>
 </html>
